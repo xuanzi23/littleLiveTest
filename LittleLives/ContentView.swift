@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        NavigationView {
+            ZStack {
+                List {
+                    CarouselView()
+                        .padding(.vertical)
+                        .listRowInsets(EdgeInsets())
+                    
+                    Section(header: Text("Easier Communication")
+                                .foregroundColor(Color.accentColor)) {
+                        HorizontalScrollContentView()
+                            .padding(.vertical)
+                            .listRowInsets(EdgeInsets())
+                    }
+                    
+                    ListContentView()
+                }
+                .listStyle(GroupedListStyle())
+                .navigationTitle(Text("Little Lives"))
+                .navigationBarTitleDisplayMode(.inline)
+            }
+            
+        }
     }
 }

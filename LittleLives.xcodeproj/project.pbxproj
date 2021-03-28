@@ -13,6 +13,10 @@
 		929905D6260EE5B900F2AD78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929905D5260EE5B900F2AD78 /* Preview Assets.xcassets */; };
 		929905E1260EE5B900F2AD78 /* LittleLivesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929905E0260EE5B900F2AD78 /* LittleLivesTests.swift */; };
 		929905EC260EE5B900F2AD78 /* LittleLivesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929905EB260EE5B900F2AD78 /* LittleLivesUITests.swift */; };
+		929905FD260EE63200F2AD78 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929905FC260EE63200F2AD78 /* CarouselView.swift */; };
+		92990602260EEC7900F2AD78 /* HorizontalScrollContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92990601260EEC7900F2AD78 /* HorizontalScrollContentView.swift */; };
+		92990607260EFBC800F2AD78 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92990606260EFBC800F2AD78 /* ListContentView.swift */; };
+		9299060F260F053400F2AD78 /* DataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9299060E260F053400F2AD78 /* DataObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		929905E7260EE5B900F2AD78 /* LittleLivesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLivesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		929905EB260EE5B900F2AD78 /* LittleLivesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLivesUITests.swift; sourceTree = "<group>"; };
 		929905ED260EE5B900F2AD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929905FC260EE63200F2AD78 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		92990601260EEC7900F2AD78 /* HorizontalScrollContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollContentView.swift; sourceTree = "<group>"; };
+		92990606260EFBC800F2AD78 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		9299060E260F053400F2AD78 /* DataObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 			children = (
 				929905CE260EE5B700F2AD78 /* LittleLivesApp.swift */,
 				929905D0260EE5B700F2AD78 /* ContentView.swift */,
+				92990601260EEC7900F2AD78 /* HorizontalScrollContentView.swift */,
+				929905FC260EE63200F2AD78 /* CarouselView.swift */,
+				92990606260EFBC800F2AD78 /* ListContentView.swift */,
 				929905D2260EE5B900F2AD78 /* Assets.xcassets */,
 				929905D7260EE5B900F2AD78 /* Info.plist */,
 				929905D4260EE5B900F2AD78 /* Preview Content */,
+				9299060E260F053400F2AD78 /* DataObservable.swift */,
 			);
 			path = LittleLives;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9299060F260F053400F2AD78 /* DataObservable.swift in Sources */,
 				929905D1260EE5B700F2AD78 /* ContentView.swift in Sources */,
+				92990602260EEC7900F2AD78 /* HorizontalScrollContentView.swift in Sources */,
+				92990607260EFBC800F2AD78 /* ListContentView.swift in Sources */,
+				929905FD260EE63200F2AD78 /* CarouselView.swift in Sources */,
 				929905CF260EE5B700F2AD78 /* LittleLivesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
